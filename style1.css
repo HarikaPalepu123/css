@@ -1,0 +1,44 @@
+/* Element selector */
+p {
+  color: blue;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Class selector */
+.highlight {
+  color: red;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+/* ID selector */
+#main-title {
+  color: green;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ID selector example for paragraph */
+#unique {
+  color: purple;
+  font-style: italic;
+}
+
+/* Class for div box */
+.box {
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Descendant selector */
+div p {
+  color: brown;
+}
+
+/* Group selector */
+h1, h2, h3, p {
+  font-family: 'Verdana', sans-serif;
+}
