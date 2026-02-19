@@ -1,7 +1,7 @@
 body {
-  height: 1500px; /* to test fixed */
+    background-color: lightyellow;
+  height: 1500px; 
 }
-
 .box {
   width: 150px;
   height: 80px;
