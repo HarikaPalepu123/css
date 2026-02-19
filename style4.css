@@ -1,0 +1,41 @@
+body {
+  height: 1500px; /* to test fixed */
+}
+
+.box {
+  width: 150px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Static */
+.static {
+  position: static;
+ 
+}
+
+/* Relative */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: lightblue;
+}
+
+/* Absolute */
+.absolute {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: lightgreen;
+}
+
+/* Fixed */
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: pink;
+}
