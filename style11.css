@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.img-hover {
+    width: 250px;
+      transition: all 0.5s;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.img-animate {
+    width: 250px;
+    display:block;
+    margin-top: 40px;
+    animation: slide 3s infinite alternate;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
